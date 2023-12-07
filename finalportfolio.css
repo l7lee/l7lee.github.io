@@ -1,0 +1,135 @@
+
+#title {
+  background-color:#DCDCDC;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  color: #800000;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 1.5;
+  text-align:center;
+  padding-top: 5%;
+}
+
+h3 {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+h7 {
+  font-family: 'Lora', serif
+}
+
+p {
+  color: #555;
+  padding-top: 2%;
+  font-family: 'Lora', serif;
+  text-align: justify;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Karla', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+}
+
+/* Projects Section */
+#projects {
+  text-align: center;
+  background-color: #DCDCDC;
+}
+
+.carousel-item {
+  padding: 2.5% 15%;
+}
+
+/* About Me Section */
+body{margin-top:20px;}
+
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.about-text h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 18px;
+}
+
+.theme-color {
+    color: #800000;
+}
+
+.aboutme {
+  box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  background: #555;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.gray-bg {
+    background-color: white;
+}
+
+/* Footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center ;
+  background-color: white;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media Query Section */
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
